@@ -1,0 +1,217 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+/* Navbar */
+.custom-navbar {
+  background: #111827;
+  padding: 14px 0;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  letter-spacing: 0.5px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 16px;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #38bdf8 !important;
+}
+
+/* Hero Section */
+.home-hero {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #e0f2fe, #ffffff);
+}
+
+.home-hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.home-hero p {
+  font-size: 22px;
+  color: #334155;
+}
+
+.hero-text {
+  font-size: 18px !important;
+  color: #64748b !important;
+  margin-bottom: 25px;
+}
+
+.hero-img {
+  max-height: 350px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.18);
+}
+
+/* Section Headings */
+h2 {
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Product Cards */
+.card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.product-img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #111827;
+}
+
+.card-text {
+  color: #64748b;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+  border-radius: 25px;
+  padding: 9px 22px;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-success {
+  border-radius: 25px;
+  padding: 9px 22px;
+  font-weight: 600;
+}
+
+.btn-danger {
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+/* Forms */
+form.card,
+.card.p-4 {
+  border-radius: 18px;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 11px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2563eb;
+}
+
+/* Cart Images */
+#cartContainer img {
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Product Details */
+#productDetails img {
+  max-height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Why Choose Cards */
+.bg-white {
+  border-radius: 16px !important;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  background-color: #111827 !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 24px !important;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .home-hero {
+    text-align: center;
+    padding: 50px 15px;
+  }
+
+  .home-hero h1 {
+    font-size: 34px;
+  }
+
+  .home-hero p {
+    font-size: 18px;
+  }
+
+  .hero-text {
+    font-size: 16px !important;
+  }
+
+  .hero-img {
+    margin-top: 25px;
+    max-height: 280px;
+  }
+
+  .product-img {
+    height: 200px;
+  }
+
+  #cartContainer .text-end {
+    text-align: center !important;
+    padding: 15px !important;
+  }
+
+  #cartContainer img {
+    height: 180px;
+  }
+}
